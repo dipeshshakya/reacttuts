@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome />
-        <Greet />
+        <Welcome msg="Welcome" />
+        <Greet name="Dipesh" heroName="Shaktiman">
+          <p>This the paragraph tag</p>
+        </Greet>
       </header>
     </div>
   );

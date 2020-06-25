@@ -5,7 +5,7 @@ export class Welcome extends Component {
     return (
       <div>
         <h1>
-          Welcome
+          {this.props.msg}
           <br />
         </h1>
       </div>
