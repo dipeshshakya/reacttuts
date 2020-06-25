@@ -3,15 +3,17 @@ import React from "react";
 import "./App.css";
 import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
+import Message from "./Components/Message";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome msg="Welcome" />
+        {/* <Welcome msg="Welcome" />
         <Greet name="Dipesh" heroName="Shaktiman">
           <p>This the paragraph tag</p>
-        </Greet>
+        </Greet> */}
+        <Message />
       </header>
     </div>
   );
