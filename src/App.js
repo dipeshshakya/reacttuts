@@ -5,6 +5,8 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
           <p>This the paragraph tag</p>
         </Greet> */}
         {/* <Message /> */}
-        <Counter />
+        {/* <Counter /> */}
+        <FunctionClick />
+        <ClassClick />
       </header>
     </div>
   );
