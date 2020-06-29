@@ -9,6 +9,7 @@ import "./App.css";
 // import ClassClick from "./Components/ClassClick";
 // import EventBind from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
+import LifeCycleA from "./Components/LifeCycleA";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <ClassClick /> */}
         {/* <EventBind /> */}
         <ParentComponent />
+        <LifeCycleA />
       </header>
     </div>
   );
