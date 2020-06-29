@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 // import logo from './logo.svg';
 import "./App.css";
 // import Greet from "./Components/Greet";
@@ -10,6 +10,7 @@ import "./App.css";
 // import EventBind from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
 import LifeCycleA from "./Components/LifeCycleA";
+import FragmentDemo from "./Components/FragmentDemo";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         {/* <FunctionClick />
         <ClassClick /> */}
         {/* <EventBind /> */}
-        <ParentComponent />
-        <LifeCycleA />
+        {/* <ParentComponent />
+        <LifeCycleA /> */}
+        <FragmentDemo />
       </header>
     </div>
   );
